@@ -1,4 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Inter:wght@400;600;700&display=swap";
+body {
+    padding-top: 81px !important;
+}
 body.megamenu-opened {
     overflow: hidden;
 }
@@ -708,6 +711,9 @@ header#purpleair_footer a {
     }
 }
 @media only screen and (max-width:1279px) {
+    body {
+        padding-top: 73px !important;
+    }
     /* HEADER STYLES ============================================ */
     header#purpleair_header .purpleair_header-inner {
         padding: 16px 20px;
@@ -848,7 +854,9 @@ header#purpleair_footer a {
     }
 }
 @media only screen and (max-width:959px) {
-
+    body {
+        padding-top: 57px !important;
+    }
     body.megamenu-opened {
         height: 100%;
     }

@@ -1,11 +1,11 @@
 $(function () {
     $(document).ready(function () {
         $.ajax({
-            url: 'https://raw.githubusercontent.com/vitalikpetreniuk/purple_air_verstka/main/index.html',
+            url: 'https://raw.githubusercontent.com/squarestudio/purpleair_nav/main/index.html',
             type: 'get',
             dataType: 'html',
             success: function (data) {
-                const url_to_css = 'https://raw.githubusercontent.com/vitalikpetreniuk/purple_air_verstka/main/css/custom.css';
+                const url_to_css = 'https://raw.githubusercontent.com/squarestudio/purpleair_nav/main/css/custom.css';
                 const pa_body = $('body');
                 const pa_header = $('header#purpleair_header');
                 const header_menu = $(data).find('.header__inline-menu>ul');
